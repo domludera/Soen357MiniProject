@@ -27,6 +27,12 @@ h2{
     flex-direction: column;
 }
 
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .left{
     display: flex;
     justify-content: start;
@@ -34,6 +40,7 @@ h2{
 
 .red-card{
     background-color: #E53935;
+    flex-direction: column;
 }
 
 .blue-card{
@@ -42,11 +49,11 @@ h2{
 
 .yellow-card{
     background-color: #FBC02D;
+    flex-direction: column;
 }
 
 .white-card{
-    display: flex;
-    justify-content: center;
+    flex-direction: row;
     background-color: #ffffff;
     width: 71%;
 }
@@ -57,6 +64,8 @@ h2{
     margin-right: 30px;
     border-radius: 40px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .margin-border{
