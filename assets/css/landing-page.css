@@ -126,6 +126,12 @@ a:focus, a:active {
   width: 150%;
 }
 
+.icons{
+  fill: red;
+  width: 3em;
+  height: auto;
+}
+
 .navbar {
   -webkit-transition: all 300ms linear;
   -moz-transition: all 300ms linear;
