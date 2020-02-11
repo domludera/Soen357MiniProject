@@ -96,7 +96,14 @@ a:focus, a:active {
 
 .typography{
   font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
-  font-size: 25px;
+  font-size: 28px;
+  border: 1px solid black;
+  padding-top: 1em;
+  padding-left: 6em;
+}
+
+.typo-p{
+  padding-bottom: 2em;
 }
 
 .typo-bold{
