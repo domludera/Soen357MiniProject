@@ -109,6 +109,16 @@ a:focus, a:active {
   font-style: italic;
 }
 
+.storyboard{
+  border: 2px solid black;
+  padding: 0;
+}
+
+.journeymap{
+  padding: 0;
+  width: 150%;
+}
+
 .navbar {
   -webkit-transition: all 300ms linear;
   -moz-transition: all 300ms linear;
