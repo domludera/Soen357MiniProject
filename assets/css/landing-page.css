@@ -127,11 +127,18 @@ a:focus, a:active {
 }
 
 .icons{
-  fill: red;
   width: 3em;
   height: auto;
 }
-
+/*
+.persona{
+  width: 200%;
+  height: auto;
+  padding-left: 30em;
+  padding-right: 30em;
+  padding-bottom: 10em;
+}
+*/
 .navbar {
   -webkit-transition: all 300ms linear;
   -moz-transition: all 300ms linear;
