@@ -123,22 +123,23 @@ a:focus, a:active {
 
 .journeymap{
   padding: 0;
-  width: 150%;
+}
+
+.mockup{
+  align: middle;
 }
 
 .icons{
   width: 3em;
   height: auto;
 }
-/*
-.persona{
-  width: 200%;
-  height: auto;
-  padding-left: 30em;
-  padding-right: 30em;
-  padding-bottom: 10em;
+
+.studycase-img{
+  width: 90%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
-*/
+
 .navbar {
   -webkit-transition: all 300ms linear;
   -moz-transition: all 300ms linear;
