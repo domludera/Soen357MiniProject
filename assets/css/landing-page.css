@@ -140,6 +140,10 @@ a:focus, a:active {
   margin-bottom: 10%;
 }
 
+.graph-img{
+  width: 100%;
+}
+
 .navbar {
   -webkit-transition: all 300ms linear;
   -moz-transition: all 300ms linear;
