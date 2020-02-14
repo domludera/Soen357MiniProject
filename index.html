@@ -17,7 +17,7 @@
         <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
     </head>
     <body class="landing-page landing-page1">
-        <nav class="navbar navbar-transparent navbar-top" role="navigation">
+        <nav class="navbar navbar-transparent navbar-top"  id="a" role="navigation">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -32,9 +32,45 @@
                 <div class="collapse navbar-collapse" id="example" >
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="assets/links/Interview Results.pdf">
+                            <a href="#research">
+                            <i class="fa"></i>
+                            Research
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#interviews">
                             <i class="fa"></i>
                             Interviews
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#personas">
+                            <i class="fa"></i>
+                            Personas
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#storyboard">
+                            <i class="fa"></i>
+                            Storyboard
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#journeymap">
+                            <i class="fa"></i>
+                            Journey Map
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sketches">
+                            <i class="fa"></i>
+                            Prototypes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#finalthoughts">
+                            <i class="fa"></i>
+                            Final Thoughts
                             </a>
                         </li>
                     </ul>
@@ -55,7 +91,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-md-offset-1">
-                            <div class="description">
+                            <div class="description" id="intro">
                                 <h1>DataByte</h1>
                                 <br>
                                 <h3>Join the vast interconnected world of data.</h3>
@@ -75,22 +111,12 @@
             </div>
             <div class="section section-gray section-clients">
                 <div class="container text-center">
-                    <h4 class="header-text">Data has a better idea</h4>
+                    <h4 class="header-text" id='testing'>Data has a better idea</h4>
                     <p>
                         The world’s most valuable resource is no longer oil, but data.<br>
                         Make sure it is in the hands of companies you trust and have a say in how you want to share your information.
                     </p>
-                    <div class="logos">
-                        <ul class="list-unstyled">
-                            <li ><img src="assets/img/logos/adobe.png"/></li>
-                            <li ><img src="assets/img/logos/zendesk.png"/></li>
-                            <li ><img src="assets/img/logos/ebay.png"/></li>
-                            <li ><img src="assets/img/logos/evernote.png"/></li>
-                            <li ><img src="assets/img/logos/airbnb.png"/></li>
-                            <li ><img src="assets/img/logos/zappos.png"/></li>
-                        </ul>
-                    </div>
-                </div>
+                </div> 
             </div>
             <!-- Introduction -->
             <div class="section section-presentation">
@@ -159,7 +185,7 @@
             <!-- Research -->
             <div class="section section-features">
                 <div class="container">
-                    <h4 class="header-text text-center">Research</h4>
+                    <h4 class="header-text text-center" id='research'>Research</h4>
                     <div class="row">
                         <div class="col-md-12">
                             <div class="card card-blue">
@@ -263,7 +289,7 @@
                                 <div class="icon">
                                     <i class="pe-7s-graph1"></i>
                                 </div>
-                                <h5>What the consumer wants</h5>
+                                <h5 id='interviews'>What the consumer wants</h5>
                                 <p>
                                     In order to understand our users and their needs, we have conducted <a href="assets/links/Interview%20Results.pdf">interviews</a> with sample size of the users we would be targeting, the sample size consists of 15 persons.
                                     Those include but aren't restricted to students, people working in the health department, biochemists, supervisors and coordinators as well as a soon to be finance analysts.
@@ -298,12 +324,33 @@
                                 </div>
                                    
                                     
-                                
-                                <img class="studycase-img" src="assets/graphs/q4.jpg">
-                                <img class="studycase-img" src="assets/graphs/q6.jpg">
-                                <img class="studycase-img" src="assets/graphs/q7.jpg">
-                                <img class="studycase-img" src="assets/graphs/q8.jpg">
-                                <img class="studycase-img" src="assets/graphs/q9.jpg">
+                                <div id="carousel-example-generic" class="carousel fade" data-ride="carousel">
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="assets/graphs/q4.jpg">
+                                        </div>
+                                        <div class="item">
+                                            <img src="assets/graphs/q6.jpg">
+                                        </div>
+                                        <div class="item">
+                                            <img src="assets/graphs/q7.jpg">
+                                        </div>
+                                        <div class="item">
+                                            <img src="assets/graphs/q8.jpg">
+                                        </div>
+                                        <div class="item">
+                                            <img src="assets/graphs/q9.jpg">
+                                        </div>
+                                    </div>
+                                    <ol class="carousel-indicators carousel-indicators-blue">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                                    </ol>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -312,7 +359,7 @@
             <!-- Personas -->
             <div class="section section-testimonial">
                 <div class="container">
-                    <h4 class="header-text text-center">Personas</h4>
+                    <h4 class="header-text text-center" id='personas'>Personas</h4>
                     <div id="carousel-example-generic" class="carousel fade" data-ride="carousel">
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
@@ -337,7 +384,7 @@
             <!-- Storyboard -->
             <div class="section section-features">
                 <div class="container">
-                    <h4 class="header-text text-center">Storyboard</h4>
+                    <h4 class="header-text text-center" id='storyboard'>Storyboard</h4>
                     <div class="row">
                             <img class="col-md-12 storyboard" src="assets/img/drawings/storyboard.jpg">
                     </div>
@@ -346,7 +393,7 @@
             <!-- Journey Map -->
             <div class="section section-features">
                 <div class="container">
-                    <h4 class="header-text text-center">Journey Map</h4>
+                    <h4 class="header-text text-center" id='journeymap'>Journey Map</h4>
                     <div class="row">
                         <img class="col-md-12 journeymap" src="assets/img/drawings/journey-map.png">
                     </div>
@@ -546,7 +593,7 @@
             <!-- Sketches -->
             <div class="section section-features">
                 <div class="container">
-                    <h4 class="header-text text-center">Sketches</h4>
+                    <h4 class="header-text text-center" id='sketches'>Sketches</h4>
                     <div class="col-md-12">
                         <p>The first sketches were done in order to provide a general 
                             overview of what the application would look like. Following preliminary research by interviews, 
@@ -578,7 +625,7 @@
             <!-- Wireframes -->
             <div class="section section-gray section-features">
                 <div class="container">
-                    <h4 class="header-text text-center">Wireframes</h4>
+                    <h4 class="header-text text-center" id='wireframes'>Wireframes</h4>
                     <div class="col-md-12">
                         <div class="col-md-auto">
                             <br>
@@ -679,9 +726,28 @@
             <!-- Figma Mockup -->
             <div style="background-color: black" class="section section-features">
                 <div class="container text-center">
-                    <h4 style="color: white" class="header-text">Prototype</h4>
+                    <h4 style="color: white" class="header-text" id='prototype'>Prototype</h4>
                     <div class="col-md-12">
                         <iframe style="border: none;" width="800" height="850" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FfB8rGDLe1hVoLyXJGxrEPw%2FSOEN357%3Fnode-id%3D210%253A1996%26viewport%3D343%252C307%252C0.1099330335855484%26scaling%3Dscale-down" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- Decisions -->
+            <div class="section section-gray section-features">
+                <div class="container">
+                    <h4 class="header-text text-center" id='finalthoughts'>Decisions</h4>
+                    <div class="col-md-12">
+                        <div class="col-md-auto">
+                            <br>
+                            <br>
+                            <p>
+                                The following wireframes aim to translate the hand-drawn sketches to more properly layed out versions 
+                                all while refining and tailoring our design decisions to our users.
+                                From our hand drawn sketches, we had originally thought that forcing the 
+                                user to read lengthy information is not ideal so instead we simply placed a link on the first 
+                                page where users can access more information as to why their data is being used and information about data security.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -734,6 +800,12 @@
         var popup = document.getElementById("myPopup2");
         popup2.classList.toggle("show");
       }
+    </script>
+    <script>
+        function scroll() {
+          var elmnt = document.getElementById("intro");
+          elmnt.scrollIntoView();
+        }
     </script>
 </html>
 

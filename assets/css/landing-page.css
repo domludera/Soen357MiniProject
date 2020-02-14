@@ -75,6 +75,10 @@ a:hover, a:focus {
 a:focus, a:active {
   outline: 0;
 }
+#a{
+  background-color: #213821;
+
+}
 
 .color-palette{
   height: 5em;
@@ -283,6 +287,10 @@ a:focus, a:active {
   text-align: center;
 }
 
+.align{
+  display: flex;
+  justify-content: space-between;
+}
 .btn {
   border-width: 2px;
   background-color: transparent;
