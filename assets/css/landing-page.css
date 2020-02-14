@@ -149,6 +149,8 @@ a:focus, a:active {
 }
 
 .wireframe{
+  width: 10em;
+  height: auto;
   margin-top: 1em;
   margin-bottom: 1em;
 }
