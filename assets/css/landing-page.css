@@ -55,7 +55,7 @@ h6, .h6 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -1484,7 +1484,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 }
 
 .fixed-plugin h5{
-    font-size: 1em;
+    ont-size: 1em;
 }
 .fixed-plugin .dropdown-menu li{
     display: block;
