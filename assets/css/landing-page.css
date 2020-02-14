@@ -82,16 +82,20 @@ a:focus, a:active {
 }
 
 .c1{
-  background-color: #FFBA5A;
+  background-color: #3A7544;
+  color:#323232
 }
 .c2{
-  background-color: #C0FFB3;
+  background-color: #d6ffc8;
+  color: #111111;
 }
 .c3{
-  background-color: #52DE97;
+  background-color: #345231;
+  color: #c4c4c4
 }
 .c4{
-  background-color: #2C7873;
+  background-color: #213821;
+  color: #d4d4d4;
 }
 
 .typography{
