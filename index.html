@@ -17,7 +17,7 @@
         <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
     </head>
     <body class="landing-page landing-page1">
-        <nav class="navbar navbar-transparent navbar-top" role="navigation">
+        <nav class="navbar navbar-transparent navbar-top"  id="a" role="navigation">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -32,9 +32,45 @@
                 <div class="collapse navbar-collapse" id="example" >
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="assets/links/Interview Results.pdf">
+                            <a href="#research">
+                            <i class="fa"></i>
+                            Research
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#interviews">
                             <i class="fa"></i>
                             Interviews
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#personas">
+                            <i class="fa"></i>
+                            Personas
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#storyboard">
+                            <i class="fa"></i>
+                            Storyboard
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#journeymap">
+                            <i class="fa"></i>
+                            Journey Map
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sketches">
+                            <i class="fa"></i>
+                            Prototypes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#finalthoughts">
+                            <i class="fa"></i>
+                            Final Thoughts
                             </a>
                         </li>
                     </ul>
@@ -55,7 +91,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-md-offset-1">
-                            <div class="description">
+                            <div class="description" id="intro">
                                 <h1>DataByte</h1>
                                 <br>
                                 <h3>Join the vast interconnected world of data.</h3>
@@ -75,22 +111,12 @@
             </div>
             <div class="section section-gray section-clients">
                 <div class="container text-center">
-                    <h4 class="header-text">Data has a better idea</h4>
+                    <h4 class="header-text" id='testing'>Data has a better idea</h4>
                     <p>
                         The world’s most valuable resource is no longer oil, but data.<br>
                         Make sure it is in the hands of companies you trust and have a say in how you want to share your information.
                     </p>
-                    <div class="logos">
-                        <ul class="list-unstyled">
-                            <li ><img src="assets/img/logos/adobe.png"/></li>
-                            <li ><img src="assets/img/logos/zendesk.png"/></li>
-                            <li ><img src="assets/img/logos/ebay.png"/></li>
-                            <li ><img src="assets/img/logos/evernote.png"/></li>
-                            <li ><img src="assets/img/logos/airbnb.png"/></li>
-                            <li ><img src="assets/img/logos/zappos.png"/></li>
-                        </ul>
-                    </div>
-                </div>
+                </div> 
             </div>
             <!-- Introduction -->
             <div class="section section-presentation">
@@ -141,10 +167,16 @@
                             </div>
                         </div>
                         <div class="col-md-5 col-md-offset-1">
-                            <h4 class="header-text">Challenges</h4>
+                            <h4 class="header-text">Understanding the problem</h4>
                             <p>
-                            Data privacy has been deemed a defining focus of 2019, including cyber attacks and organizations selling personal data to third parties.
-                                Any unauthorized collection, careless processing or inadequate protection of personal data introduces multiple risks. In particular, organizations that fail to comply with privacy requirements are at risk of steep fines, lawsuits and other penalties.
+                                It is clear that in today’s day and age of data and information overload, 
+                                the question arises whether or not selling said data is ethical, 
+                                necessary or even safe. Consumers, avid technology users and everyday people like you and I become increasily concerned,
+                                over whether our information has slipped into the wrong hand. It is no secret that companies worldwide 
+                                are using our data for different reasons. An example of such company is the infamous social networking website, Facebook. Facebook is being paid 
+                                money for the amount of information it is able to collect and redistribute. However, the problem arises due to the fact that this data is 
+                                stripped and sold from the user without making them aware to what means it will be used. Morever, why should the companies, 
+                                already making millions or even billions of dollars, be rewarded and the user receive nothing?
                             </p>
                         </div>
                     </div>
@@ -153,7 +185,7 @@
             <!-- Research -->
             <div class="section section-features">
                 <div class="container">
-                    <h4 class="header-text text-center">Research</h4>
+                    <h4 class="header-text text-center" id='research'>Research</h4>
                     <div class="row">
                         <div class="col-md-12">
                             <div class="card card-blue">
@@ -163,15 +195,9 @@
                                 <div class="text">
                                     <h5>What already exists</h5>
                                     <p>
-                                        Since the rise of internet, data brokers and collectors have been refining their tools to perfect the art of data mining.
-                                        From the initial social platforms such as MySpace, to search engines powerhouses like Google or Yahoo!, data has been
-                                        a gold rush which has paid out since it now a valuable commodity. They provide an invisible collection tool, which embeds
-                                        itself on website and users cookies to track the end users journey on the internet and throughout his life.
-                                    </p>
-                                    <p>
                                         New solutions take more of a seller and buyer initiative. They provide a market place where people can transact openly and transparently with the data.
                                         Buyers are clearly defined, and so are the sellers.
-                                        Some data brokers such as Datapace and Wibson offer state of the art technology by implementing a decentralized data marketplace with blockchain technology.
+                                        Some data brokers such as <a href="https://datapace.io/">Datapace</a> and <a href="https://wibson.org/">Wibson</a> offer state of the art technology by implementing a decentralized data marketplace with blockchain technology.
                                     </p>
                                     <p></p>
 
@@ -183,7 +209,7 @@
                                 <div class="icon">
                                     <i class="pe-7s-bell"></i>
                                 </div>
-                                <h5>Issues with convetional solutions</h5>
+                                <h5>Issues with Convetional Solutions</h5>
                                 <p>
                                     While analyzing what competitors were offering, we discovered several flaws, which make this business not as obvious as it would seem.
                                 </p>
@@ -223,8 +249,11 @@
                                 <div class="icon">
                                     <i class="pe-7s-bell"></i>
                                 </div>
-                                <h5>Issues with innovative solutions</h5>
+                                <h5>Issues with Innovative Solutions</h5>
                                 <p>
+                                    Picture this: You log in to Your Data Marketplace application which you have been using quite regularly. You have accumulated 
+                                    a significant lump sum of extra money by selling your data and all of a sudden, the amount falls well below what was indicated previously. 
+                                    Rewarding users in the form of blockchain comes along with such a risk.
                                 </p>
                             </div>
                         </div>
@@ -260,37 +289,68 @@
                                 <div class="icon">
                                     <i class="pe-7s-graph1"></i>
                                 </div>
-                                <h5>What the consumer wants</h5>
+                                <h5 id='interviews'>What the consumer wants</h5>
                                 <p>
                                     In order to understand our users and their needs, we have conducted <a href="assets/links/Interview%20Results.pdf">interviews</a> with sample size of the users we would be targeting, the sample size consists of 15 persons.
                                     Those include but aren't restricted to students, people working in the health department, biochemists, supervisors and coordinators as well as a soon to be finance analysts.
                                     Our goal was to cover a diverse demographic with different background and interests.
                                 </p>
                                 <br>
-                                <div class="col-md-7">
-                                    <div style="border: 1px #36523c solid">
-                                    <img class="graph-img" src="assets/graphs/q2invert.jpg">
-                                    <img class="graph-img" src="assets/graphs/q3.jpg">
+                                <div>
+                                    <div class="col-md-7">
+                                        <div style="border: 1px #36523c solid">
+                                        <img class="graph-img" src="assets/graphs/q2invert.jpg">
+                                        <img class="graph-img" src="assets/graphs/q3.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <br>
+                                        <br>
+                                        <p>
+                                            12 out 15 people are concerned about how their data is accessed. When inquired about the reason behind it, they do not trust companies with it.
+                                            Time and again has shown deceptive approaches to opt-in their data collection. More important than being biased towards the companies collecting the data,
+                                            end users are more concerned about what data is collected. This clearly shows that people have information they would rather not share.
+                                            There are a multitude of reasons why this might be the case, therefore we believe it is important to underline which data points has the user agreed to share.
+                                            We want the customer to feel confident when using our app, since we think this is the key to building long term relations with customer and successful business.
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="col-md-5">
-                                    <br>
-                                    <br>
-                                    <p>
-                                        12 out 15 people are concerned about how their data is accessed. When inquired about the reason behind it, they do not trust companies with it.
-                                        Time and again has shown deceptive approaches to opt-in their data collection. But most importantly than being biased towards the companies collecting the data,
-                                        end users are more concerned about what data is collected. This clearly shows that people have information they would rather not share.
-                                        There is a multitude of reasons why it might be the case, therefore we believe it is important to underline which data points has the user agreed to share.
-                                        We want the customer to feel confident when using our app, since we think this is the key to building long term relations with customer and successful business.
 
-                                    </p>
+                                <div class="col-md-12">
+                                  <br>
+                                        <p>
+                                           The following questions were designed to reflect specific user interactions prefered by our population sample.
+                                        </p>
                                 </div>
-
-                                <img class="studycase-img" src="assets/graphs/q4.jpg">
-                                <img class="studycase-img" src="assets/graphs/q6.jpg">
-                                <img class="studycase-img" src="assets/graphs/q7.jpg">
-                                <img class="studycase-img" src="assets/graphs/q8.jpg">
-                                <img class="studycase-img" src="assets/graphs/q9.jpg">
+                                   
+                                    
+                                <div id="carousel-example-generic" class="carousel fade" data-ride="carousel">
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="assets/graphs/q4.jpg">
+                                        </div>
+                                        <div class="item">
+                                            <img src="assets/graphs/q6.jpg">
+                                        </div>
+                                        <div class="item">
+                                            <img src="assets/graphs/q7.jpg">
+                                        </div>
+                                        <div class="item">
+                                            <img src="assets/graphs/q8.jpg">
+                                        </div>
+                                        <div class="item">
+                                            <img src="assets/graphs/q9.jpg">
+                                        </div>
+                                    </div>
+                                    <ol class="carousel-indicators carousel-indicators-blue">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                                    </ol>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -299,7 +359,7 @@
             <!-- Personas -->
             <div class="section section-testimonial">
                 <div class="container">
-                    <h4 class="header-text text-center">Personas</h4>
+                    <h4 class="header-text text-center" id='personas'>Personas</h4>
                     <div id="carousel-example-generic" class="carousel fade" data-ride="carousel">
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
@@ -324,7 +384,7 @@
             <!-- Storyboard -->
             <div class="section section-features">
                 <div class="container">
-                    <h4 class="header-text text-center">Storyboard</h4>
+                    <h4 class="header-text text-center" id='storyboard'>Storyboard</h4>
                     <div class="row">
                             <img class="col-md-12 storyboard" src="assets/img/drawings/storyboard.jpg">
                     </div>
@@ -333,7 +393,7 @@
             <!-- Journey Map -->
             <div class="section section-features">
                 <div class="container">
-                    <h4 class="header-text text-center">Journey Map</h4>
+                    <h4 class="header-text text-center" id='journeymap'>Journey Map</h4>
                     <div class="row">
                         <img class="col-md-12 journeymap" src="assets/img/drawings/journey-map.png">
                     </div>
@@ -350,12 +410,19 @@
                         <div class="col-md-6">
                             <div class="description">
                                 <h4 class="header-text">Color Palette</h4>
-                                <p>We have chosen our palette to underline the analytic and creative side of our customers. We wish to inspire confidence without intimidating the users.</p>
+                                <p>
+                                    We have chosen our palette to underline the analytic and creative 
+                                    side of our customers. We wished to inspire confidence without 
+                                    intimidating the users therefore we decided to go with a monochromatic 
+                                    color palette, so that the screen seems less busy and more professionial.
+                                    Secondly, we choose green as we wanted to promote the association between the 
+                                    app and money.
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-5 col-md-offset-1">
-                            <div class="row color-palette c2"><span>#D6FFC8</span></div>
-                            <div class="row color-palette c1">#3A7544</div>
+                            <div class="row color-palette c1"><span>#D6FFC8</span></div>
+                            <div class="row color-palette c2">#3A7544</div>
                             <div class="row color-palette c3"><span>#345231</span></div>
                             <div class="row color-palette c4"><span>#213821</span></div>
                         </div>
@@ -533,7 +600,7 @@
             <!-- Sketches -->
             <div class="section section-features">
                 <div class="container">
-                    <h4 class="header-text text-center">Sketches</h4>
+                    <h4 class="header-text text-center" id='sketches'>Sketches</h4>
                     <div class="col-md-12">
                         <p>The first sketches were done in order to provide a general 
                             overview of what the application would look like. Following preliminary research by interviews, 
@@ -565,29 +632,100 @@
             <!-- Wireframes -->
             <div class="section section-gray section-features">
                 <div class="container">
-                    <h4 class="header-text text-center">Sketches</h4>
+                    <h4 class="header-text text-center" id='wireframes'>Wireframes</h4>
                     <div class="col-md-12">
+                        <div class="col-md-auto">
+                            <br>
+                            <br>
+                            <p>
+                                The following wireframes aim to translate the hand-drawn sketches to more properly layed out versions 
+                                all while refining and tailoring our design decisions to our users.
+                                
+                            </p>
+                        </div>
                         <div class="row">
-                            <div class="col-md-4">
-                                <img class="wireframe" src="assets/figma/wireframes/landing-page.png"/>
+                            <div class="col-md-12">
+                                <div class="col-md-7">
+                                    <img class="wireframe" src="assets/figma/wireframes/landing-page.png"/>
+                                    <img class="wireframe" src="assets/figma/wireframes/signin.png"/>
+                                    <img class="wireframe" src="assets/figma/wireframes/signup.png"/>
+                                </div>
+                                <div class="col-md-5">
+                                    <p>
+                                    From our hand drawn sketches, we had originally thought that forcing the 
+                                user to read lengthy information is not ideal so instead we simply placed a link ("Find out why?") on the first 
+                                page where users can access more information as to why their data is being used and information about data security.
+
+                                       
+                                    </p>
+                                </div>
                             </div>
-                            <div class="col-md-8">
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-md-pull-1">
+                            <div class="col-md-7">
+                                <img class="wireframe" src="assets/figma/wireframes/main-page.png"/>
+                                <img class="wireframe" src="assets/figma/wireframes/dashboard.png"/>
+                                <img class="wireframe" src="assets/figma/wireframes/transaction-history.png"/>
+                            </div>
+                            <div class="col-md-5">
                                 <p>
+                                    From our research and conducted interviews, we wanted our application to project a sense of reward to the users for their data.
+                                       Once signed in, we would like to show a simple dashboard view displaying users' earnings and via some menu, we want the user to be able to
+                                       consult their transaction history (companies who have paid them).
 
+                                    
                                 </p>
-
+                            </div>
                             </div>
                         </div>
-                        <img class="wireframe" src="assets/figma/wireframes/signin.png"/>
-                        <img class="wireframe" src="assets/figma/wireframes/signup.png"/>
-                            <img class="wireframe" src="assets/figma/wireframes/search.png"/>
-                            <img class="wireframe" src="assets/figma/wireframes/view-data.png"/>
-                            <img class="wireframe" src="assets/figma/wireframes/personal-data.png"/>
-                            <img class="wireframe" src="assets/figma/wireframes/payment-information.png"/>
-                            <img class="wireframe" src="assets/figma/wireframes/transaction-history.png"/>
-                            <img class="wireframe" src="assets/figma/wireframes/trending-page.png"/>
-                            <img class="wireframe" src="assets/figma/wireframes/dashboard.png"/>
-                            <img class="wireframe" src="assets/figma/wireframes/main-page.png"/>
+                        <div class="row">
+                            <div class="col-md-12 col-md-offset-2">
+                                <div class="col-md-5">
+                                    <img class="wireframe" src="assets/figma/wireframes/personal-data.png"/>
+                                    <img class="wireframe" src="assets/figma/wireframes/view-data.png"/>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>
+                                        Following the dashboard view, we would like users to input their data in order to allow them to retreive relevant trends of companies
+                                    looking for that specific type of data. Users could select permissions to allow them to feel secure as to what type of data they make accessible.
+                        
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-5">
+                                    <img class="wireframe" src="assets/figma/wireframes/trending-page.png"/>
+                                    <img class="wireframe" src="assets/figma/wireframes/search.png"/>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>
+                                        Here we demonstrate the general views of the "Trending" page (requested by our sample user population) as well as the "Search" page which would allow a user to search
+                                        for specific companies and/or apply filters to target exactly what the user is trying to sell.
+
+                                       
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-md-offset-3">
+                                <div class="col-md-3">
+                                    <img class="wireframe" src="assets/figma/wireframes/payment-information.png"/>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>
+
+                                        Finally, our interviewed sample population clearly desired having direct deposits and this is also want we wanted to highlight in our application to make it stand out.
+                                        People want to know that "real" money will be going into their bank accounts once they sell their data.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
@@ -595,9 +733,54 @@
             <!-- Figma Mockup -->
             <div style="background-color: black" class="section section-features">
                 <div class="container text-center">
-                    <h4 style="color: white" class="header-text">Prototype</h4>
+                    <h4 style="color: white" class="header-text" id='prototype'>Prototype</h4>
                     <div class="col-md-12">
                         <iframe style="border: none;" width="600" height="850" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FfB8rGDLe1hVoLyXJGxrEPw%2FSOEN357%3Fnode-id%3D210%253A1996%26viewport%3D343%252C307%252C0.1099330335855484%26scaling%3Dscale-down" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- Decisions -->
+            <div class="section section-gray section-features">
+                <div class="container">
+                    <h4 class="header-text text-center" id='finalthoughts'>Decisions</h4>
+                    <div class="col-md-12">
+                        <div class="col-md-auto">
+                            <br>
+                            <br>
+                            <p>
+                                The following wireframes aim to translate the hand-drawn sketches to more properly layed out versions 
+                                all while refining and tailoring our design decisions to our users.
+                                From our hand drawn sketches, we had originally thought that forcing the 
+                                user to read lengthy information is not ideal so instead we simply placed a link on the first 
+                                page where users can access more information as to why their data is being used and information about data security.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Final Thoughts -->
+            <div class="section section-gray section-features">
+                <div class="container">
+                    <h4 class="header-text text-center" id='finalthoughts'>Final Thoughts</h4>
+                    <div class="col-md-12">
+                        <div class="col-md-auto">
+                            <p>
+                                The primary focus of our application was to allow the user to receive payment in the currency they desired and 
+                                to ensure that all data being collected is transparent and decided on by the user. Through post-prototype consultation
+                                we were able to confirm that our app met these desired goals by allowing 20 users to use our prototype and ensured these users were all 
+                                able to fully understand all the interactions.
+                                <br>
+                                <br>
+                                Our project was fairly small scale as we only did 15 interviews and only 1 of the interviews was done of someone 
+                                outside <a href='https://en.wikipedia.org/wiki/Montreal'>Montreal</a>. Further data collection would be 
+                                required to make sure that the application is comprehensive to all users cognitive responses and desires.
+                                <br>
+                                <br>
+                                Looking at some of our <a href='#interviews'>graphs</a> and comparing them with the final prototype, we made
+                                the decision to only include the components that had the most interest and had we done more research we 
+                                could have found a way to include some of the components without ruining the majorities user experience.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -650,6 +833,12 @@
         var popup = document.getElementById("myPopup2");
         popup2.classList.toggle("show");
       }
+    </script>
+    <script>
+        function scroll() {
+          var elmnt = document.getElementById("intro");
+          elmnt.scrollIntoView();
+        }
     </script>
 </html>
 

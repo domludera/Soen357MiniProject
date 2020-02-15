@@ -75,6 +75,10 @@ a:hover, a:focus {
 a:focus, a:active {
   outline: 0;
 }
+#a{
+  background-color: #213821;
+
+}
 
 .color-palette{
   height: 5em;
@@ -82,16 +86,16 @@ a:focus, a:active {
 }
 
 .c1{
-  background-color: #3A7544;
-  color:#323232
-}
-.c2{
   background-color: #d6ffc8;
   color: #111111;
 }
+.c2{
+  background-color: #3A7544;
+  color:#b4b4b4;
+}
 .c3{
   background-color: #345231;
-  color: #c4c4c4
+  color: #c4c4c4;
 }
 .c4{
   background-color: #213821;
@@ -149,8 +153,18 @@ a:focus, a:active {
 }
 
 .wireframe{
+  width: 10em;
+  height: auto;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+.wireframe-border{
+  border: 1px solid #345231;
+  border-radius: 6px;
+  margin-bottom: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 /* Popup container - can be anything you want */
@@ -273,6 +287,10 @@ a:focus, a:active {
   text-align: center;
 }
 
+.align{
+  display: flex;
+  justify-content: space-between;
+}
 .btn {
   border-width: 2px;
   background-color: transparent;
