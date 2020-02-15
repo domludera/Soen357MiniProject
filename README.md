@@ -5,7 +5,7 @@ Through data acquisition techniques (interviews), user personas, storyboards, jo
 ## Team Members 👥
 | Name          | ID        |
 | ------------- |:-------------:|
-| Dominik Ludera |  |
+| Dominik Ludera | 40062500 |
 | Fintan Davidson | 40045059 |
 | Trevor Naggessar | 40058857 |
 
