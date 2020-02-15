@@ -80,6 +80,16 @@ a:focus, a:active {
 
 }
 
+
+.intro{
+  margin-top: 5em;
+}
+
+.challenge{
+  margin-top: 8em;
+  width: 150%;
+}
+
 .color-palette{
   height: 5em;
   color: black;
@@ -161,7 +171,7 @@ a:focus, a:active {
 
 .wireframe-border{
   border: 1px solid #345231;
-  border-radius: 6px;
+  border-radius: 25px;
   margin-bottom: 2em;
   padding-top: 2em;
   padding-bottom: 2em;
