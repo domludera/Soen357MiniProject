@@ -9,3 +9,5 @@ Through data acquisition techniques (interviews), user personas, storyboards, jo
 | Fintan Davidson | 40045059 |
 | Trevor Naggessar | 40058857 |
 
+## Github Pages
+https://finndavidson.github.io/Soen357MiniProject/
